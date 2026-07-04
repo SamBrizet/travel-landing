@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aurora Travels, landing premium para una agencia de viajes con destinos curados, galeria, testimonios y formulario de contacto." />
+    <title>Aurora Travels | Viajes con curaduria premium</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio">Aurora Travels</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-label="Abrir menu">Menu</button>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#destinos">Destinos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content reveal">
+          <p class="eyebrow">Luxury travel curation</p>
+          <h1>Escapadas memorables con rutas diseñadas como experiencias.</h1>
+          <p>
+            Viajes boutique inspirados en el estilo de vida Airbnb: detalle visual, comodidad real y destinos curados para desconectar mejor.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#destinos">Explorar destinos</a>
+            <a class="button button--ghost" href="#contacto">Planear viaje</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--grid reveal" id="destinos">
+        <div class="section__intro">
+          <p class="eyebrow">Destinos</p>
+          <h2>Rutas con atmosfera, diseño y ritmo propio.</h2>
+          <p>Seleccionamos escenarios premium para parejas, grupos pequeños y trabajo remoto con descanso.</p>
+        </div>
+        <div class="card-grid">
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Playa turquesa en Maldivas" />
+            <div>
+              <h3>Maldivas íntimas</h3>
+              <p>Villas sobre el agua, snorkel privado y cenas flotantes con servicio concierge.</p>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Pueblo costero en Italia" />
+            <div>
+              <h3>Costa Amalfitana</h3>
+              <p>Estancias boutique, rutas en barco y gastronomía curada frente al Mediterráneo.</p>
+            </div>
+          </article>
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80" alt="Montañas de Suiza" />
+            <div>
+              <h3>Alpes suizos</h3>
+              <p>Refugios de diseño, trenes panorámicos y wellness con vistas alpinas.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="parallax-band" aria-hidden="true"></section>
+
+      <section class="section reveal" id="galeria">
+        <div class="section__intro">
+          <p class="eyebrow">Galeria</p>
+          <h2>Una selección visual para imaginar tu próximo viaje.</h2>
+        </div>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80" alt="Piscina frente al mar" />
+          <img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?auto=format&fit=crop&w=1200&q=80" alt="Terraza premium con vistas" />
+          <img src="https://images.unsplash.com/photo-1494475673543-6a6a27143b18?auto=format&fit=crop&w=1200&q=80" alt="Ciudad iluminada por la noche" />
+          <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80" alt="Desierto con resort premium" />
+        </div>
+      </section>
+
+      <section class="section slider-section reveal" id="testimonios">
+        <div class="section__intro">
+          <p class="eyebrow">Testimonios</p>
+          <h2>Historias de viaje contadas por quienes ya vivieron la experiencia.</h2>
+        </div>
+        <div class="slider" data-slider>
+          <article class="slide is-active">
+            <p>“Aurora nos armó una luna de miel impecable. Cada traslado y cada hotel se sintieron pensados para nosotros.”</p>
+            <strong>Lucía & Mateo</strong>
+          </article>
+          <article class="slide">
+            <p>“El itinerario en Italia logró el balance exacto entre descanso, diseño y exploración. Muy lejos de un paquete turístico común.”</p>
+            <strong>Claudia R.</strong>
+          </article>
+          <article class="slide">
+            <p>“Trabajar remoto desde los Alpes con toda la logística resuelta fue la mejor decisión del año.”</p>
+            <strong>Renzo V.</strong>
+          </article>
+        </div>
+        <div class="slider-controls">
+          <button type="button" data-prev>Anterior</button>
+          <button type="button" data-next>Siguiente</button>
+        </div>
+      </section>
+
+      <section class="section faq-section reveal" id="faq">
+        <div class="section__intro">
+          <p class="eyebrow">FAQ</p>
+          <h2>Preguntas frecuentes antes de reservar.</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>¿Personalizan itinerarios?</summary>
+            <p>Sí. Cada propuesta se ajusta a fechas, presupuesto, ritmo y tipo de experiencia que quieres vivir.</p>
+          </details>
+          <details>
+            <summary>¿Incluyen vuelos?</summary>
+            <p>Podemos incluir vuelos, traslados y estancias o diseñar solo la parte terrestre según lo que necesites.</p>
+          </details>
+          <details>
+            <summary>¿Trabajan viajes corporativos o workations?</summary>
+            <p>Sí. Diseñamos workations premium para equipos pequeños o profesionales independientes.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section contact-section reveal" id="contacto">
+        <div class="section__intro">
+          <p class="eyebrow">Contacto</p>
+          <h2>Cuéntanos qué viaje imaginas y armamos la ruta.</h2>
+        </div>
+        <form class="contact-form" novalidate>
+          <label>
+            <span>Nombre</span>
+            <input name="name" type="text" required />
+          </label>
+          <label>
+            <span>Correo</span>
+            <input name="email" type="email" required />
+          </label>
+          <label>
+            <span>Destino ideal</span>
+            <input name="destination" type="text" required />
+          </label>
+          <label>
+            <span>Mensaje</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="button button--primary">Enviar solicitud</button>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Aurora Travels. Travel curation for modern escapes.</p>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
